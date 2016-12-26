@@ -1,0 +1,296 @@
+a:4:{s:4:"root";s:22:"../../less/custom.less";s:8:"compiled";s:5307:"@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+body {
+  background-color: #dedede;
+  width: 100%;
+  height: 100%;
+}
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  height: 60px;
+  background-color: #2CADEE;
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+  z-index: 6;
+}
+nav i {
+  float: left;
+  margin: 15px 40px;
+  font-size: 30px !important;
+  color: #1D5789;
+}
+footer {
+  min-height: 300px;
+  height: auto;
+  background-color: #818181;
+  z-index: 3;
+  margin-top: 200px;
+  color: #fff;
+  font-size: 12px;
+  position: relative;
+}
+footer h4 {
+  color: #333;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  margin-top: 5px;
+}
+footer ul li a,
+footer ul li a:hover,
+footer ul li a:active {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+footer .container {
+  margin-top: 50px;
+}
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.nav {
+  margin-bottom: 30px !important;
+}
+.nav li {
+  width: 25%;
+  min-width: 130px;
+}
+.nav li a {
+  color: #000;
+}
+.nav li a:focus,
+.nav li a:active {
+  border-bottom: 3px solid #2CADEE !important;
+}
+i.fa.fa-angle-right {
+  color: #fff;
+  float: right;
+}
+.rotate-arrow-45 {
+  transition: 0.4s;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+#canvass-chat-messaggi {
+  padding: 0px 20px 40px;
+  border-bottom: 2px solid #dedede;
+  text-align: left;
+  font-weight: 400;
+}
+.canvass-clear {
+  margin-top: 100px;
+}
+.canvass-brand a,
+.canvass-brand a:hover,
+.canvass-brand a:active {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+.canvass-brand h1 {
+  font-size: 24px;
+  margin-top: 15px;
+  margin-right: 80px;
+}
+.canvass-brand span {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+.has-feedback .form-control {
+  border: 2px solid #1d5789;
+}
+.canvass-sidebar {
+  background-color: #01cafe;
+  max-width: 250px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 0px 5px #818181;
+  position: fixed;
+  top: 60px;
+  overflow: auto;
+  transition: 0.4s;
+  left: 0px;
+  z-index: 5;
+}
+.canvass-sidebar-close {
+  left: -250px !important;
+}
+.canvass-search-bar {
+  background-color: #00bdf1;
+  width: 100%;
+  height: 80px;
+  padding: 30px 20px;
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: 300;
+  margin-top: -10px;
+  margin-bottom: -40px;
+}
+.canvass-search-bar .fa {
+  float: left;
+}
+.canvass-search-bar input {
+  margin: 0 auto;
+  background-color: transparent;
+  border: none;
+  width: 130px;
+  outline: none;
+  float: left;
+  margin-left: 15px;
+  margin-top: -5px;
+}
+.canvass-search-bar input:focus {
+  color: #dedede;
+  border-bottom: 1px solid #dedede;
+  margin-top: -5px;
+  float: left;
+}
+ul#tablist {
+  margin-top: 963px;
+  z-index: 30;
+  background-color: red;
+  color: white;
+}
+.canvass-items-menu {
+  display: inline-block;
+  width: 100%;
+}
+.canvass-items-menu ul li {
+  background-color: #01b3e3;
+  height: 50px;
+  border-bottom: 1px solid #0BA1C5;
+}
+.canvass-items-menu ul li i {
+  padding-top: 12px;
+  padding-left: 14px;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.canvass-items-menu ul li a,
+.canvass-items-menu ul li a:hover,
+.canvass-items-menu ul li a:active {
+  color: #fff !important;
+  font-weight: 300;
+  text-decoration: none !important;
+  font-size: 16px;
+  transition: 0.4s;
+}
+.canvass-items-menu ul li:hover {
+  background-color: #0BA1C5;
+}
+.canvass-items-menu li a:hover {
+  margin-left: 20px;
+}
+.canvass-sub-menu {
+  display: none;
+}
+.canvass-sub-menu li {
+  background-color: #2596B4 !important;
+  padding-left: 20px;
+  padding-top: 15px;
+  list-style-type: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.canvass-user-profile {
+  width: 100%;
+  min-height: 320px;
+  height: auto;
+  background-color: #019EFF;
+  text-align: center;
+  color: #fff;
+  padding-top: 25px;
+}
+.canvass-user-profile h2 {
+  font-size: 18px;
+}
+.canvass-user-profile span {
+  font-size: 12px;
+}
+.canvass-circle-img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  border: 5px solid #1D5789;
+  clear: both;
+  margin: 20px auto;
+}
+.canvass-user-profile button {
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  background-color: #138EDA;
+  margin-top: 20px;
+  border: none;
+  font-size: 14px;
+}
+.canvass-active {
+  background-color: #1D5789 !important;
+}
+.canvass-btn-navy {
+  background-color: #1D5789;
+  height: 50px;
+  width: 100%;
+  font-size: 20px;
+  padding: 15px auto;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  margin-top: -20px;
+}
+.canvass-btn-navy i {
+  float: left;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+.canvass-btn-add {
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  background-color: #2CADEE;
+  border-radius: 50%;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  padding-top: 5px;
+  box-shadow: -5px 5px 10px #818181;
+  bottom: 80px;
+  right: 30px;
+  z-index: 4;
+  outline: none;
+}
+.canvass-btn-add .fa-comments-o {
+  bottom: 150px;
+  right: 50px;
+}
+div#canvass-chat-container {
+  height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+@media screen and (max-width: 480px) {
+  .nav li {
+    width: 100%;
+  }
+}
+";s:5:"files";a:1:{s:43:"C:\xampp\htdocs\NewCanvass\less\custom.less";i:1468008319;}s:7:"updated";i:1468008327;}

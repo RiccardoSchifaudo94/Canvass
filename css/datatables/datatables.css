@@ -1,0 +1,65 @@
+table.dataTable.display tbody tr.even>.sorting_1, table.dataTable.order-column.stripe tbody tr.even>.sorting_1 {
+    background-color: #dedede!important;
+}
+table.dataTable.no-footer {
+     border-bottom:none!important;
+}
+table.dataTable tbody tr {
+    background-color: #dedede!important;
+}
+table.dataTable.display tbody tr:hover>.sorting_1, table.dataTable.order-column.hover tbody tr:hover>.sorting_1 {
+    background-color: #dedede!important;
+}
+table.dataTable.display tbody tr:hover>.sorting_1, table.dataTable.order-column.hover tbody tr:hover>.sorting_1 {
+    background-color: #dedede!important;
+}
+
+table.dataTable.display tbody tr:hover>.sorting_1, table.dataTable.order-column.hover tbody tr:hover>.sorting_1 {
+    background-color: #dedede!important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+	color: #fff !important;
+    border: 1px solid #66646D!important;
+    background-color: #2CADEE!important;	
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #fff !important;
+    border: 1px solid #66646D!important;
+    background-color: #2CADEE!important;
+ }   
+
+ table.dataTable thead .sorting_desc {
+     background-image:none!important;
+}
+
+table.dataTable thead .sorting_asc {
+    background-image:none!important;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+    padding: 10px 18px;
+    border-bottom:none!important;
+}
+
+
+table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc {
+    display: none!important;
+}
+table.dataTable.display tbody tr.odd>.sorting_1, table.dataTable.order-column.stripe tbody tr.odd>.sorting_1 {
+    background-color:#dedede!important;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    float: left!important;
+    text-align: center!important;
+ }   
+
+ #tabella_recenti_filter input {min-width:140px!important;}
+
+ @media screen and (max-width: 640px){ 
+  .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter {
+    float: left!important;
+    width:100%;
+    text-align: center;
+   }
+}

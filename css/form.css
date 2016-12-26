@@ -1,0 +1,75 @@
+.canvass-form{
+	border-radius:0px!important;
+}
+
+
+
+.canvass-form .modal-header{
+	background-color:#138EDA;
+	color:#fff;
+	font-weight:500!important;
+	font-size:24px;
+	text-align:center;
+}
+
+.canvass-form input{
+	width:100%;
+	border:none;
+	border:3px solid #138EDA;
+	height:40px;
+	margin-bottom:10px;
+	padding-left:10px;
+}
+
+.canvass-form textarea{
+	width:100%;
+	border:none;
+	border:3px solid #138EDA;
+	padding-top:10px;
+	padding-left:10px;
+	margin-bottom:10px;
+}
+
+.canvass-form select
+{
+	width:100%;
+	border:none;
+	border:3px solid #138EDA;
+	padding-top:0px;
+	padding-left:10px;
+	margin-bottom:10px;	
+	height:40px;
+}
+
+.canvass-form select option{
+	background-color:#818181;
+	color:#fff;
+	border:1px solid #000;
+	height:20px;
+}
+
+.canvass-form span{
+
+	font-weight:500;
+	font-style:italic;
+	font-size:12px;
+
+}
+
+.canvass-bnt-modal{
+	width:100%;
+	height:50px;
+	background-color:#2CADEE;
+	color:#fff;
+	font-size:18px;
+	font-weight:700;
+	border:none;
+}
+
+@media screen and (min-width: 768px) {
+
+	.modal-dialog{
+		width:750px!important;
+	}
+
+}

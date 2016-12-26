@@ -1,0 +1,125 @@
+.canvass-post{
+	max-width:600px;
+	width:100%;
+	min-height:300px;
+	height:auto;
+	background-color:#fff;
+	box-shadow:5px 0px 5px #818181;
+	margin-bottom:50px;
+	text-align:center;
+}
+
+.canvass-post hr{
+	border:1px solid #dedede;
+}
+
+.canvass-post-category{
+	font-size:18px;
+	font-weight:300;
+	border-bottom:1px solid #dedede;
+	width:100%;
+	background-color:#138EDA;
+	color:#fff;
+	min-height:50px;
+	text-align:center;
+	padding:10px 20px 10px 20px;
+}
+
+.canvass-post-category i{
+	float:left;
+	margin-top:5px;
+}
+
+#canvass-img-post{
+	text-align:center!important;
+	margin:0px auto 30px;
+}
+
+.canvass-post-rank{
+
+	display:block;
+	margin:100px auto 0px;
+	text-align:center!important;
+
+}
+
+.canvass-post-rank button{
+
+	width:40px;
+	height:40px;
+	background-color:#1D5789;
+	color:#fff;
+	border:none;
+	font-size:20px;
+	font-weight:700;
+	outline:none;
+	margin:0 auto;
+
+}
+
+.canvass-post-rank span{
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+}
+
+.canvass-post-rank p{
+	text-align:justify;
+}
+
+.canvass-author{
+    width: 100%;
+    height: auto;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700!important;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom:30px;
+    margin-left:20px;
+}
+.canvass-author p{
+	text-align: left;
+    height: auto;
+    margin-top: -35px;
+    margin-left: 55px;
+}
+.canvass-img-style{
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+    border:2px solid #1D5789;
+    padding:20px;
+    margin-right:20px;
+}
+
+.canvass-date{
+	width:40px;
+	height:40px;
+	border:2px solid #1D5789;
+	border-radius:50%;
+	float:right;
+	font-size:16px;
+	font-weight:700!important;
+	float:left;
+	margin-left:20px;
+
+}
+
+.canvass-date i{
+
+	margin-top:10px;
+	font-size:18px;
+	color:#1D5789;
+}
+
+.canvass-date p{
+	color: #000;
+    font-size: 16px;
+    float: left;
+    margin-top: -20px;
+    margin-left: 50px;
+}
